@@ -1,0 +1,40 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.eclipse/
+.settings/
+.classpath
+.project
+
+# Backend uploads/outputs
+backend/uploads/*
+backend/outputs/*
+!backend/uploads/.gitkeep
+!backend/outputs/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+application-local.properties
+
+# Temporary files
+*.tmp
+*.temp
